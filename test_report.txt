@@ -6,7 +6,7 @@ Browserslist: caniuse-lite is outdated. Please run:
   npx browserslist@latest --update-db
   Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
 FAIL src/App.test.tsx
-  ✕ renders the course name somewhere (47 ms)
+  ✕ renders the course name somewhere (41 ms)
 
   ● renders the course name somewhere
 
@@ -18,11 +18,43 @@ FAIL src/App.test.tsx
         [36m<div[39m
           [33mclass[39m=[32m"App"[39m
         [36m>[39m
-          [36m<header[39m
-            [33mclass[39m=[32m"App-header"[39m
+          [36m<div>[39m
+            [36m<header[39m
+              [33mclass[39m=[32m"App-header"[39m
+            [36m>[39m
+              [0mSara Fleck[0m
+            [36m</header>[39m
+          [36m</div>[39m
+          [36m<p />[39m
+          [36m<div>[39m
+            [36m<img[39m
+              [33mclass[39m=[32m"Profile"[39m
+              [33msrc[39m=[32m"profile pic.jpg"[39m
+            [36m/>[39m
+          [36m</div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"About"[39m
           [36m>[39m
-            [0mSara Fleck[0m
-          [36m</header>[39m
+            [0m About Me[0m
+          [36m</div>[39m
+          [36m<ul[39m
+            [33mclass[39m=[32m"Body"[39m
+          [36m>[39m
+            [36m<li>[39m
+              [0mUndergraduate Exercise Science & Computer Science student at the University of Delaware[0m
+            [36m</li>[39m
+            [36m<li>[39m
+              [0m [0m
+              [0mResearch assistant with the Falls and Mobility Lab[0m
+              [0m [0m
+            [36m</li>[39m
+            [36m<li>[39m
+              [0mTeaching assistant for introductory computer science classes at UD[0m
+            [36m</li>[39m
+            [36m<li>[39m
+              [0mTowamencin swim team coach[0m
+            [36m</li>[39m
+          [36m</ul>[39m
         [36m</div>[39m
       [36m</div>[39m
     [36m</body>[39m
@@ -54,5 +86,5 @@ All files |     100 |      100 |     100 |     100 |
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        1.996 s
+Time:        1.587 s
 Ran all test suites.
