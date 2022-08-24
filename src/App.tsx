@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import pic from "./images/profile pic.jpg";
+import pic from "./images/profile pic.png";
 
 function App(): JSX.Element {
     return (
@@ -10,8 +10,8 @@ function App(): JSX.Element {
                     <header className="App-header">Sara Fleck</header>
                 </div>
                 <p></p>
-                <div>
-                    <img className="Profile" src={pic} />
+                <div className="Profile">
+                    <img className="Image" src={pic} />
                 </div>
                 <div className="About"> About Me</div>
                 <ul className="Body">
