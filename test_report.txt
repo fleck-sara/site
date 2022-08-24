@@ -26,10 +26,12 @@ FAIL src/App.test.tsx
             [36m</header>[39m
           [36m</div>[39m
           [36m<p />[39m
-          [36m<div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"Profile"[39m
+          [36m>[39m
             [36m<img[39m
-              [33mclass[39m=[32m"Profile"[39m
-              [33msrc[39m=[32m"profile pic.jpg"[39m
+              [33mclass[39m=[32m"Image"[39m
+              [33msrc[39m=[32m"profile pic.png"[39m
             [36m/>[39m
           [36m</div>[39m
           [36m<div[39m
@@ -86,5 +88,5 @@ All files |     100 |      100 |     100 |     100 |
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        1.587 s
+Time:        1.672 s
 Ran all test suites.
